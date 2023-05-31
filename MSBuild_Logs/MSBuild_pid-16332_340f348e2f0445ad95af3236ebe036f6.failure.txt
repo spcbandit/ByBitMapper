@@ -1,0 +1,8 @@
+UNHANDLED EXCEPTIONS FROM PROCESS 16332:
+=====================
+23.09.2021 18:24:09
+System.IO.IOException: Канал нарушен.
+   в System.IO.Pipes.NamedPipeServerStream.CheckConnectOperationsServer()
+   в System.IO.Pipes.NamedPipeServerStream.BeginWaitForConnection(AsyncCallback callback, Object state)
+   в Microsoft.Build.BackEnd.NodeEndpointOutOfProcBase.PacketPumpProc()
+===================
